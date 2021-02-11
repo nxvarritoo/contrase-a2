@@ -1,23 +1,23 @@
-package contraseña;
+package contraseÃ±a;
 
 import javax.swing.JOptionPane;
 
-public class contraseña {
+public class contraseÃ±a {
   
     public static void main(String[] args) {
   
-        String contraseña="c++";
+        String contraseÃ±a="c++";
    
-        final int INTENTOS = 3;
+        final int INTENTOS = 5;
          
         boolean acierto=false;
   
         String password;
         for (int i=0;i<3 && !acierto;i++){
-            password=JOptionPane.showInputDialog("Escribe la contraseña:");
+            password=JOptionPane.showInputDialog("Escribe la contraseÃ±a:");
   
-            if (password.equals(contraseña)){
-                System.out.println("Contraseña correcta.");
+            if (password.equals(contraseÃ±a)){
+                System.out.println("ContraseÃ±a correcta.");
                 acierto=true;
             }
         }
